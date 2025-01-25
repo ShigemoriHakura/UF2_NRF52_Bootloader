@@ -1,7 +1,7 @@
 /*
  * The MIT License (MIT)
  *
- * Copyright (c) 2021 Hai-Ninh Dang
+ * Copyright (c) 2020 Nick Winans
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -22,8 +22,8 @@
  * THE SOFTWARE.
  */
 
-#ifndef _NEKOR_H
-#define _NEKOR_H
+#ifndef _NICENANO_H
+#define _NICENANO_H
 
 #define _PINNUM(port, pin)    ((port)*32 + (pin))
 
@@ -47,19 +47,19 @@
 //--------------------------------------------------------------------+
 // BLE OTA
 //--------------------------------------------------------------------+
-#define BLEDIS_MANUFACTURER  "shirosaki"
-#define BLEDIS_MODEL         "neko_receiver"
+#define BLEDIS_MANUFACTURER  "Nice Keyboards"
+#define BLEDIS_MODEL         "nice!nano"
 
 //--------------------------------------------------------------------+
 // USB
 //--------------------------------------------------------------------+
-#define USB_DESC_VID           0x1209
-#define USB_DESC_UF2_PID       0x7A01
-#define USB_DESC_CDC_ONLY_PID  0x7A01
+#define USB_DESC_VID           0x239A
+#define USB_DESC_UF2_PID       0x00B3
+#define USB_DESC_CDC_ONLY_PID  0x00B3
 
-#define UF2_PRODUCT_NAME  "NEKOR nRF52840"
-#define UF2_VOLUME_LABEL  "NEKOR-BOOT"
-#define UF2_BOARD_ID      "nRF52840-NEKOR-rev520"
-#define UF2_INDEX_URL     "https://github.com/zhiayang/NEKOR"
+#define UF2_PRODUCT_NAME  "nice!nano"
+#define UF2_VOLUME_LABEL  "NICENANO"
+#define UF2_BOARD_ID      "nRF52840-nicenano"
+#define UF2_INDEX_URL     "https://nicekeyboards.com/docs/nice-nano"
 
-#endif // _NEKOR_H
+#endif // _NICENANO_H
